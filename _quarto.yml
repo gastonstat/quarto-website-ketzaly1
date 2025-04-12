@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  favicon: assets/favicon.ico
+  title: "Ket Zaly"
+  navbar:
+    background: primary
+    right:
+      - href: index.qmd
+        text: Home
+      - projects/index.qmd
+      - href: about.qmd
+        text: About
+      - resume.qmd
+  page-footer:
+    background: light # or `dark`
+    left: Copyright 2025, Ket Zaly
+    right: This website is built with [Quarto](https://quarto.org/){target=_blank}
+
+format:
+  html:
+    theme: yeti
+    css: styles.css
+    toc: true
+
+
+

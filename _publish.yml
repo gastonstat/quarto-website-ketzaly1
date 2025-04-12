@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 37f948e2-926a-48b7-bcc9-4325e01d09e4
+      url: 'https://dataviz.quarto.pub/ketzaly1'
